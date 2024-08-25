@@ -19,6 +19,7 @@ export class HomeComponent {
 
   constructor() {
     this.photoInfoList = this.photoService.getAllPhotoInfo();
+    this.filteredPhotoInfoList = this.photoInfoList;
   }
 
   filterResults(text: string) {

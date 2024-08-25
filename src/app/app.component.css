@@ -1,5 +1,6 @@
 :host {
     --content-padding: 10px;
+    --primary-color: rgb(136, 0, 255);
   }
   
   h1{
