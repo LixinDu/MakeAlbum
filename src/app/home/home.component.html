@@ -1,0 +1,17 @@
+
+<section class ="search">
+  <form>
+    <input type ="text" placeholder="Filter by year" #filter/>
+    <button class = "primary" type = "button"  (click)="filterResults(filter.value)"> Search </button>
+  </form> 
+</section> 
+
+
+<section class="results">
+    <!-- use the photo component-->
+    <app-photo 
+      *ngFor = "let photoInfo of filteredPhotoInfoList"
+      [photoInfo]="photoInfo">
+    </app-photo>
+</section>
+

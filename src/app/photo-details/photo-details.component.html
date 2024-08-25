@@ -1,0 +1,24 @@
+<article>
+    <img 
+      class ="listing-photo"
+      [src] = "photoInfo?.photo"
+    />
+    <section class = "listing-descripition">
+      <h2 class = "listing-heading">
+        {{photoInfo?.name}}
+      </h2>
+    </section>
+    <section class ="listing-features">
+      <h2 class = "section-heading">
+        About this photo
+      </h2>
+      <ul>
+        <li>
+          Where was it taken: {{photoInfo?.state}}
+        </li>
+        <li>
+          When was it taken: {{photoInfo?.month}}, {{photoInfo?.year}}
+        </li>
+      </ul>
+    </section>
+  <article>

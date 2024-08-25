@@ -1,0 +1,11 @@
+<section class="listing">
+    <!--  alt: specifies an alternate text for an area, if the image cannot be displayed.-->
+    <img
+      class = "listing-photo" 
+      [src] ="photoInfo.photo"
+      alt = "photo of {{photoInfo.name}}"
+      crossorigin>
+    <h2 class = "listing-heading">{{photoInfo.name}}</h2>
+    <p class = "listing-location">{{photoInfo.state}}, {{photoInfo.year}} </p>
+    <a [routerLink]="['/photo-details', photoInfo.id]" > Learn More</a>
+</section>

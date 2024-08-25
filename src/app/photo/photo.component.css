@@ -1,22 +1,6 @@
-:host {
-    --content-padding: 10px;
-  }
-  
-  h1{
-    margin:10px 20px 0px 50px;
-    color:var(--primary-color);
-  }
-  header {
-    display: block;
-    height: 60px;
-    padding: var(--content-padding);
-    box-shadow: 0px 5px 25px var(--shadow-color);
-  }
-  .content {
-    padding: var(--content-padding);
-  }
-  
-  .listing {
+/* Put these styles in: src/app/housing-location/housing-location.component.css */
+
+.listing {
     background: var(--accent-color);
     border-radius: 30px;
     padding-bottom: 30px;
@@ -37,6 +21,7 @@
   .listing-location::before {
     content: url("/assets/location-pin.svg") / "";
   }
+  
   section.listing a {
     padding-left: 20px;
     text-decoration: none;
