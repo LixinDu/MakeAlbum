@@ -1,4 +1,4 @@
-## Make Ablums
+## My Ablum
 
 This is a practice project adapted from the Angular tutorial. It creates an Angular app that lists photos in an album.
 
